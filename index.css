@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Salsa&display=swap');
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+body{
+    background: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Salsa', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    height: 80px;
+    background: rgba(0, 165, 0, 0.87);
+    color: white;
+}
+nav > ul{
+    display: flex;
+    padding: 0px 12px;
+    list-style: none;
+    align-items: center;
+    /* padding: 15px; */
+}
+nav > ul > li{
+    
+    padding : 0px 12px;
+   
+}
+.brand img{
+    width: 98px; 
+    height: 85px;
+    border-radius: 30px;
+
+}
+.song-name{
+    /* border: 2px solid red; */
+    font-size: 1.5vw;
+    width: 38%;
+    /* margin: auto; */
+    text-align: center;
+    /* margin-bottom: 25px; */
+}
+.brand_name{
+    font-size: 2rem;
+    padding: 0px 30px 0px 0px;
+    font-family: 'Salsa', cursive;
+}
+.container{
+    border: 2px solid red;
+    min-height:68vh;
+    margin:  25px 157px;
+    padding: 25px;
+    border-radius: 25px;
+    background: url(bg3.jpg) no-repeat center center/ cover;
+    /* background-size: 1200px; */
+}
+footer{
+    position: relative;
+    /* display: flex; */
+    /* background: black; */
+    height: 100px;
+    color: white;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 80vw; */
+    margin: auto;
+}
+.music_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#progress_bar {
+    /* border: 2px solid yellow; */
+    width:60vw;
+    margin: auto;
+    margin: 14px 0;
+    cursor: pointer;
+}
+.icons img:hover{
+    cursor: pointer;
+}
+.song-item{
+    display: flex;
+    height: 60PX;
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: 12px 40px;
+    /* background:rgb(193, 193, 204) ; */
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    background: rgba(255, 244, 182, 0.616);
+}
+.song-item img{
+    /* border-radius: 10px; */
+    width: 50px;
+    border-radius: 12px;
+}
+.song-name{
+    margin: 12px 0;
+}
+.songinfo{
+    position: absolute;
+    left: 20vw;
+    bottom: 12px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* padding: 5px; */
+    width: 23%;
+    /* border: 2px solid red; */
+}
+#masterSongName{
+    margin: 0 10px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.81s ease-in-out;
+    border-radius: 2px;
+}
+.songinfo span{
+    opacity: 0;
+    transition: opacity 0.81s ease-in-out;
+    /* border-radius: 2px; */
+}
+
+.solid{
+    color: rgba(0, 0, 0, 0.884);
+    padding: 5px;
+}
